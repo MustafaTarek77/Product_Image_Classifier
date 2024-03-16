@@ -15,6 +15,10 @@ Model Serialization: The best model is serialized using joblib.dump() and saved 
 **get_predict() Function:**
 Loading the Model: The serialized model is loaded from the file "HOG_Model_PRODUCTS.npy" using joblib.load().
 Preprocessing the Input Image: The input image is resized to 28x28 pixels to match the training data.
+
+https://github.com/MustafaTarek77/Product_Image_Classifier/assets/111199608/215102ff-47e8-473e-bb1f-d8106c54ffb4
+
+
 Feature Extraction: HOG features are extracted from the resized image.
 Prediction: The trained SVM model makes predictions on the HOG features of the input image using predict(). The predicted class label is returned.
 
