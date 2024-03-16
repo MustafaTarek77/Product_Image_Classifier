@@ -1,5 +1,5 @@
 # Product_Image_Classifier
-This repository contains code for an image classification system using a Support Vector Machine (SVM) model using Histogram of Oriented Gradients (HOG) features for image classification, and for making predictions using the trained model.
+This repository contains image classification model using a Support Vector Machine (SVM) model using Histogram of Oriented Gradients (HOG) features for image classification, and for making predictions using the trained model.
 
 Importing Libraries: The code begins by importing necessary libraries, including scikit-learn's LinearSVC for SVM, hog from skimage.feature for extracting HOG features, joblib for model serialization, os for file operations, and cv2 for image processing.
 
